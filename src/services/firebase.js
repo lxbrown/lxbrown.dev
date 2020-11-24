@@ -14,3 +14,4 @@ const config = {
 firebase.initializeApp(config);
 
 export const analytics = firebase.analytics();
+analytics.logEvent("page_view", { page_location: "lxbrown.dev", page_path: "/", page_title: "Home" })
