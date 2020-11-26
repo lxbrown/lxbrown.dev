@@ -1,0 +1,17 @@
+a {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+a + a {
+    padding-left: 20px;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
