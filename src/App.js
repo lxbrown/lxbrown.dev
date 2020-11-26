@@ -1,6 +1,9 @@
 import beer from './assets/images/marcy.jpg';
+import firebase from './services/firebase';
 
 function App() {
+  firebase.analytics().logEvent("page_view", { page_location: "lxbrown.dev", page_path: "/", page_title: "Home" });
+
   return (
     <div>
       <h1>Hi!</h1>

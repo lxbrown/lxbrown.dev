@@ -12,6 +12,6 @@ const config = {
 };
 
 firebase.initializeApp(config);
+firebase.analytics();
 
-export const analytics = firebase.analytics();
-analytics.logEvent("page_view", { page_location: "lxbrown.dev", page_path: "/", page_title: "Home" })
+export default firebase;
