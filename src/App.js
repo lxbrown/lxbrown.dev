@@ -7,6 +7,8 @@ import Portfolio from './portfolio/portfolio';
 import Contact from './contact/contact';
 import Home from './home/home';
 
+import './App.css';
+
 
 export default function App() {
   firebase.analytics().logEvent("page_view", { page_location: "lxbrown.dev", page_path: "/", page_title: "Home" });
@@ -15,21 +17,23 @@ export default function App() {
     <>
       <Header />
 
-      <Switch>
-        <Route exact path="/">
-          <Home />
-        </Route>
-        <Route exact path="/portfolio">
-          <Portfolio />
-        </Route>
-        <Route exact path="/contact">
-          <Contact />
-        </Route>
+      <div className="main">
+        <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
+          <Route exact path="/portfolio">
+            <Portfolio />
+          </Route>
+          <Route exact path="/contact">
+            <Contact />
+          </Route>
 
-        <Route path="*">
-          <Redirect to="/" />
-        </Route>
-      </Switch>
+          <Route path="*">
+            <Redirect to="/" />
+          </Route>
+        </Switch>
+      </div>
     </>
   );
 }

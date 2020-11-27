@@ -1,4 +1,20 @@
-img {
-    height: 200px;
-    border-radius: 100px;
+.photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 125px;
+    margin: 0 auto;
+}
+
+.home {
+    display: flex;
+}
+
+.description {
+    margin: auto 0 auto 5rem;
+}
+
+@media(max-width: 1000px) {
+    .description {
+        margin: auto 0 auto 1rem;
+    }
 }
