@@ -1,18 +1,13 @@
 grab icons from work computer:
-    Objectscript
-    IRIS
+    Objectscript - ISC icon
+    IRIS - cube icon
     Perforce
-add styling to card, flex so that max 2-3 cards fit on each row
-add styling within card, max 4-5 icons per row
-add remaining cards: dbs, source control, etc...
-fade in cards/tiles one at a time?
+fade in cards/tiles one at a time
 
 update icons:
     react
     node
     express
-
-get all static content on the pages. then add transitions/fades
 
 play around with new layout that has everything on a single page:
     left third: image top, description below, contact below that

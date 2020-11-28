@@ -1,3 +1,5 @@
+import FadeIn from 'react-fade-in';
+
 import jsIcon from '../assets/icons/javascript.svg';
 import javaIcon from '../assets/icons/java.svg';
 import angularIcon from '../assets/icons/angular.svg';
@@ -20,14 +22,16 @@ function Card(props) {
     const tiles = props.tiles
 
     return (
-        <div className='card'>
+        <>
             <h4>{title}</h4>
+            <FadeIn childTag='i'>
             {tiles.map(tile => (
                 <a href={tile.link} target='_blank' rel='noreferrer'>
                     <img key={tile.name} className='icon' src={tile.icon} alt={tile.name} />
                 </a>
             ))}
-        </div>
+            </FadeIn>
+        </>
     )
 }
 
@@ -130,14 +134,13 @@ export default function Portfolio() {
 
     return (
         <>
-            <h2>Portfolio</h2>
-            <div className='cards'>
+            <FadeIn className='cards' childClassName='card'>
                 <Card title='Languages' tiles={languages} />
                 <Card title='Frameworks' tiles={frameworks} />
                 <Card title='Databases' tiles={databases} />
                 <Card title='Source Control' tiles={sourceControl} />
                 <Card title='Cloud Platforms' tiles={cloudPlatforms} />
-            </div>
+            </FadeIn>
         </>
     )
 }
