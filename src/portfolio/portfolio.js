@@ -20,8 +20,8 @@ function Card(props) {
     const tiles = props.tiles
 
     return (
-        <div>
-            <h3>{title}</h3>
+        <div className='card'>
+            <h4>{title}</h4>
             {tiles.map(tile => (
                 <a href={tile.link} target='_blank' rel='noreferrer'>
                     <img key={tile.name} className='icon' src={tile.icon} alt={tile.name} />
@@ -126,16 +126,18 @@ export default function Portfolio() {
             icon: firebaseIcon,
             link: 'https://firebase.google.com/'
         }
-    ]
+    ];
 
     return (
         <>
             <h2>Portfolio</h2>
-            <Card title='Languages' tiles={languages} />
-            <Card title='Frameworks' tiles={frameworks} />
-            <Card title='Databases' tiles={databases} />
-            <Card title='Source Control' tiles={sourceControl} />
-            <Card title='Cloud Platforms' tiles={cloudPlatforms} />
+            <div className='cards'>
+                <Card title='Languages' tiles={languages} />
+                <Card title='Frameworks' tiles={frameworks} />
+                <Card title='Databases' tiles={databases} />
+                <Card title='Source Control' tiles={sourceControl} />
+                <Card title='Cloud Platforms' tiles={cloudPlatforms} />
+            </div>
         </>
     )
 }

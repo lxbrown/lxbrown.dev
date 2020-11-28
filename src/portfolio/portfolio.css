@@ -1,4 +1,13 @@
 .icon {
     height: 40px;
     width: 40px;
+    margin-right: 20px;
+}
+
+.cards {
+    display: flex;
+}
+
+.card {
+    width: 12rem;
 }

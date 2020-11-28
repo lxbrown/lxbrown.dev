@@ -1,13 +1,16 @@
-add other icons:
-    ...
-update icons:
-    react
-    node
-    express
+grab icons from work computer:
+    Objectscript
+    IRIS
+    Perforce
 add styling to card, flex so that max 2-3 cards fit on each row
 add styling within card, max 4-5 icons per row
 add remaining cards: dbs, source control, etc...
 fade in cards/tiles one at a time?
+
+update icons:
+    react
+    node
+    express
 
 get all static content on the pages. then add transitions/fades
 

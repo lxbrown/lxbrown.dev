@@ -1,9 +1,9 @@
-a {
+.menuItem {
     color: darkslategray;
     text-decoration: none;
 }
 
-a + a {
+.menuItem + .menuItem {
     padding-left: 20px;
 }
 
