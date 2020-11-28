@@ -6,6 +6,12 @@ import expressIcon from '../assets/icons/express.svg';
 import nodeIcon from '../assets/icons/nodejs.svg';
 import pythonIcon from '../assets/icons/python.svg';
 import reactIcon from '../assets/icons/react.svg';
+import bitbucketIcon from '../assets/icons/bitbucket.svg';
+import githubIcon from '../assets/icons/github.svg';
+import mongoIcon from '../assets/icons/mongodb.svg';
+import tsIcon from '../assets/icons/typescript.svg';
+import sqliteIcon from '../assets/icons/sqlite.svg';
+import firebaseIcon from '../assets/icons/firebase.svg';
 
 import './portfolio.css';
 
@@ -31,6 +37,16 @@ export default function Portfolio() {
             name: 'Javascript',
             icon: jsIcon,
             link: 'https://www.javascript.com/'
+        },
+        {
+            name: 'Typescript',
+            icon: tsIcon,
+            link: 'https://www.typescriptlang.org/'
+        },
+        {
+            name: 'Objectscript',
+            icon: '',
+            link: 'https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_INTRO'
         },
         {
             name: 'Java',
@@ -69,12 +85,57 @@ export default function Portfolio() {
             icon: nodeIcon,
             link: 'https://nodejs.org/'
         }
+    ];
+    const databases = [
+        {
+            name: 'MongoDB',
+            icon: mongoIcon,
+            link: 'https://www.mongodb.com/'
+        },
+        {
+            name: 'InterSystems IRIS',
+            icon: '',
+            link: 'https://www.intersystems.com/products/intersystems-iris/'
+        },
+        {
+            name: 'SQLite',
+            icon: sqliteIcon,
+            link: 'https://www.sqlite.org/index.html'
+        }
+    ];
+    const sourceControl = [
+        {
+            name: 'Github',
+            icon: githubIcon,
+            link: 'https://www.mongodb.com/'
+        },
+        {
+            name: 'Bitbucket',
+            icon: bitbucketIcon,
+            link: 'https://bitbucket.org/'
+        },
+        {
+            name: 'Perforce',
+            icon: '',
+            link: 'https://www.perforce.com/'
+        }
+    ];
+    const cloudPlatforms = [
+        {
+            name: 'Firebase',
+            icon: firebaseIcon,
+            link: 'https://firebase.google.com/'
+        }
     ]
+
     return (
         <>
             <h2>Portfolio</h2>
             <Card title='Languages' tiles={languages} />
             <Card title='Frameworks' tiles={frameworks} />
+            <Card title='Databases' tiles={databases} />
+            <Card title='Source Control' tiles={sourceControl} />
+            <Card title='Cloud Platforms' tiles={cloudPlatforms} />
         </>
     )
 }
