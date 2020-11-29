@@ -25,11 +25,11 @@ function Card(props) {
         <>
             <h4>{title}</h4>
             <FadeIn childTag='i'>
-            {tiles.map(tile => (
-                <a href={tile.link} target='_blank' rel='noreferrer'>
-                    <img key={tile.name} className='icon' src={tile.icon} alt={tile.name} />
-                </a>
-            ))}
+                {tiles.map(tile => (
+                    <a href={tile.link} target='_blank' rel='noreferrer'>
+                        <img key={tile.name} className='icon' src={tile.icon} alt={tile.name} />
+                    </a>
+                ))}
             </FadeIn>
         </>
     )
@@ -134,6 +134,7 @@ export default function Portfolio() {
 
     return (
         <>
+            <p>Here's some of the tech I use</p>
             <FadeIn className='cards' childClassName='card'>
                 <Card title='Languages' tiles={languages} />
                 <Card title='Frameworks' tiles={frameworks} />
