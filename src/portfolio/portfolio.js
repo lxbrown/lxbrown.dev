@@ -7,6 +7,7 @@ import djangoIcon from '../assets/icons/django.svg';
 import expressIcon from '../assets/icons/express.svg';
 import nodeIcon from '../assets/icons/nodejs.svg';
 import pythonIcon from '../assets/icons/python.svg';
+import perforceIcon from '../assets/icons/perforce.svg';
 import reactIcon from '../assets/icons/react.svg';
 import bitbucketIcon from '../assets/icons/bitbucket.svg';
 import githubIcon from '../assets/icons/github.svg';
@@ -14,6 +15,8 @@ import mongoIcon from '../assets/icons/mongodb.svg';
 import tsIcon from '../assets/icons/typescript.svg';
 import sqliteIcon from '../assets/icons/sqlite.svg';
 import firebaseIcon from '../assets/icons/firebase.svg';
+import irisIcon from '../assets/icons/iris.svg';
+import objectscriptIcon from '../assets/icons/objectscript.svg';
 
 import './portfolio.css';
 
@@ -49,19 +52,19 @@ export default function Portfolio() {
         },
         {
             name: 'Objectscript',
-            icon: '',
+            icon: objectscriptIcon,
             link: 'https://docs.intersystems.com/irislatest/csp/docbook/DocBook.UI.Page.cls?KEY=GCOS_INTRO'
+        },
+        {
+            name: 'Python',
+            icon: pythonIcon,
+            link: 'https://www.python.org/'
         },
         {
             name: 'Java',
             icon: javaIcon,
             link: 'https://www.java.com/'
         },
-        {
-            name: 'Python',
-            icon: pythonIcon,
-            link: 'https://www.python.org/'
-        }
     ];
     const frameworks = [
         {
@@ -75,6 +78,11 @@ export default function Portfolio() {
             link: 'https://reactjs.org/'
         },
         {
+            name: 'NodeJS',
+            icon: nodeIcon,
+            link: 'https://nodejs.org/'
+        },
+        {
             name: 'Django',
             icon: djangoIcon,
             link: 'https://www.djangoproject.com/'
@@ -84,11 +92,6 @@ export default function Portfolio() {
             icon: expressIcon,
             link: 'https://expressjs.com/'
         },
-        {
-            name: 'NodeJS',
-            icon: nodeIcon,
-            link: 'https://nodejs.org/'
-        }
     ];
     const databases = [
         {
@@ -98,14 +101,14 @@ export default function Portfolio() {
         },
         {
             name: 'InterSystems IRIS',
-            icon: '',
+            icon: irisIcon,
             link: 'https://www.intersystems.com/products/intersystems-iris/'
         },
         {
             name: 'SQLite',
             icon: sqliteIcon,
-            link: 'https://www.sqlite.org/index.html'
-        }
+            link: 'https://www.sqlite.org/'
+        },
     ];
     const sourceControl = [
         {
@@ -114,14 +117,14 @@ export default function Portfolio() {
             link: 'https://www.mongodb.com/'
         },
         {
+            name: 'Perforce',
+            icon: perforceIcon,
+            link: 'https://www.perforce.com/'
+        },
+        {
             name: 'Bitbucket',
             icon: bitbucketIcon,
             link: 'https://bitbucket.org/'
-        },
-        {
-            name: 'Perforce',
-            icon: '',
-            link: 'https://www.perforce.com/'
         }
     ];
     const cloudPlatforms = [
