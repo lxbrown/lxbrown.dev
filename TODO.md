@@ -12,6 +12,7 @@ update icons:
     express
 
 reorder icons based on proficiency
+re-add analytics
 merge and deploy
 
 add links in description:
