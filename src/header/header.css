@@ -1,0 +1,23 @@
+.menuItem {
+    color: darkslategray;
+    text-decoration: none;
+}
+
+.menuItem + .menuItem {
+    padding-left: 20px;
+}
+
+.selected {
+    text-decoration: underline;
+}
+
+.header {
+    text-align: center;
+    margin: 0 auto;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    padding: 2.5rem 0 0.5rem 0;
+}

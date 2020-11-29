@@ -1,0 +1,15 @@
+.icon {
+    height: 2.5rem;
+    width: 2.5rem;
+    margin-right: 1rem;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 10.5rem;
+    margin-right: 1.5rem;
+}

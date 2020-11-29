@@ -1,0 +1,19 @@
+.contact {
+    max-width: 30rem;
+    margin: 0 auto;
+}
+
+.contactRow {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.contactIcon {
+    height: 20px;
+    width: 20px;
+}
+
+.contactLink {
+    margin: auto 0 auto 1rem;
+    color: darkslategray;
+}
