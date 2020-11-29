@@ -1,6 +1,6 @@
 import { Route, Redirect, Switch } from 'react-router-dom';
 
-// import firebase from './services/firebase';
+import firebase from './services/firebase';
 
 import Header from './header/header';
 import Portfolio from './portfolio/portfolio';
@@ -11,7 +11,7 @@ import './App.css';
 
 
 export default function App() {
-  // firebase.analytics().logEvent("page_view", { page_location: "lxbrown.dev", page_path: "/", page_title: "Home" });
+  firebase.analytics().logEvent("page_view", { page_location: "lxbrown.dev", page_path: "/", page_title: "Home" });
 
   return (
     <>
