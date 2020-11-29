@@ -1,12 +1,14 @@
-import profile from '../assets/images/profile.jpg';
+import FadeIn from 'react-fade-in';
+
+import profile from '../assets/images/alex.jpg';
 
 import './home.css';
 
 export default function Home() {
     return (
-        <div className="home">
-            <img src={profile} alt="Profile" className="photo"/>
-            <p className="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis mollis aliquam dui in pellentesque. Pellentesque vel euismod eros, ut imperdiet est. Integer eros purus, sollicitudin eu gravida in, suscipit vehicula neque. In ut tincidunt dolor. Fusce vel massa quis massa imperdiet facilisis. Sed molestie porttitor mi, et condimentum nisl tempor sit amet. Sed quis sollicitudin mauris.</p>
-        </div>
+        <FadeIn className="home" childClassName='homeElement'>
+            <img src={profile} alt="Profile" className="photo fadein"/>
+            <p className="description fadein">Hi, my name is Alex! I'm a software developer, rower, (newly) biker, and (not so newly) gamer. I've been developing full-stack software applications since 2015 and love trying out new things. Take a look around to see some of the projects I work on and the tools I use!</p>
+        </FadeIn>
     )
 }
