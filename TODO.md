@@ -1,3 +1,11 @@
+switch to production build of firebase - see console log warning on live site
+    import firebase from 'firebase/app';
+    import 'firebase/<PACKAGE>';
+
+reword "love trying new things" or expand on it
+add (expand) section to portfolio
+
+add hamburger menu
 add links in description:
     rower - picture of me rowing
     biker - picture of crash
@@ -8,7 +16,6 @@ update icons?
     react
     node
     express
-add (expand) section to portfolio
 
 play around with new layout that has everything on a single page:
     left third: image top, description below, contact info below that
