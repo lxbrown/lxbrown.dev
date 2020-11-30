@@ -2,15 +2,19 @@ switch to production build of firebase - see console log warning on live site
     import firebase from 'firebase/app';
     import 'firebase/<PACKAGE>';
 
+i'm a software developer at <b>intersystems</b> (with link, hovering turns text to theme color [cyan]). I'm also an avid rower, etc...
 reword "love trying new things" or expand on it
+change portfolio to 'tech'
 add (expand) section to portfolio
+    when icons go to project, try to keep sorted by category
 
-add hamburger menu
+add hamburger menu for mobile
 add links in description:
     rower - picture of me rowing
     biker - picture of crash
     software - lxbrown.dev
     gamer - hovertext/popup: 'I don't have a cool picture or story here, I just like doing it :)'
+use theme color elsewhere on the pages?
 pick a new home picture?
 update icons?
     react
