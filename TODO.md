@@ -16,6 +16,8 @@ add links in description:
     gamer - hovertext/popup: 'I don't have a cool picture or story here, I just like doing it :)'
 use theme color elsewhere on the pages?
 pick a new home picture?
+add icon
+    mongoosejs
 update icons?
     react
     node
