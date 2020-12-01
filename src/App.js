@@ -11,7 +11,7 @@ import './App.css';
 
 
 export default function App() {
-  firebase.analytics().logEvent("page_view", { page_location: "lxbrown.dev", page_path: "/", page_title: "Home" });
+  firebase.analytics();
 
   return (
     <>
