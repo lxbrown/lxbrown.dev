@@ -1,4 +1,3 @@
-change portfolio to 'tech'
 add (expand) section to portfolio
     when icons go to project, try to keep sorted by category
 

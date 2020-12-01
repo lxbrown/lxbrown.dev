@@ -3,7 +3,7 @@ import { Route, Redirect, Switch } from 'react-router-dom';
 import firebase from './services/firebase';
 
 import Header from './header/header';
-import Portfolio from './portfolio/portfolio';
+import Tech from './tech/tech';
 import Contact from './contact/contact';
 import Home from './home/home';
 
@@ -22,8 +22,8 @@ export default function App() {
           <Route exact path="/">
             <Home />
           </Route>
-          <Route exact path="/portfolio">
-            <Portfolio />
+          <Route exact path="/tech">
+            <Tech />
           </Route>
           <Route exact path="/contact">
             <Contact />

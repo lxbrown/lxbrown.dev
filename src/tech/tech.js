@@ -18,7 +18,7 @@ import firebaseIcon from '../assets/icons/firebase.svg';
 import irisIcon from '../assets/icons/iris.svg';
 import objectscriptIcon from '../assets/icons/objectscript.svg';
 
-import './portfolio.css';
+import './tech.css';
 
 function Card(props) {
     const title = props.title
@@ -38,7 +38,7 @@ function Card(props) {
     )
 }
 
-export default function Portfolio() {
+export default function Tech() {
     const languages = [
         {
             name: 'Javascript',
@@ -137,7 +137,7 @@ export default function Portfolio() {
 
     return (
         <>
-            <p>Here's some of the tech I use</p>
+            <p>Here's some of the technology I use</p>
             <FadeIn className='cards' childClassName='card'>
                 <Card title='Languages' tiles={languages} />
                 <Card title='Frameworks' tiles={frameworks} />
