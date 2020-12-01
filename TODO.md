@@ -1,7 +1,7 @@
 add (expand) section to portfolio
     when icons go to project, try to keep sorted by category
 
-load assets before doing fadein?
+try to load assets before doing fadein
 add hamburger menu for mobile
 add links in description:
     rower - picture of me rowing
