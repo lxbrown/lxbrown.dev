@@ -1,9 +1,3 @@
-switch to production build of firebase - see console log warning on live site
-    import firebase from 'firebase/app';
-    import 'firebase/<PACKAGE>';
-
-i'm a software developer at <b>intersystems</b> (with link, hovering turns text to theme color [cyan]). I'm also an avid rower, etc...
-reword "love trying new things" or expand on it
 change portfolio to 'tech'
 add (expand) section to portfolio
     when icons go to project, try to keep sorted by category
