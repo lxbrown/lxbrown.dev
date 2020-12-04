@@ -10,7 +10,6 @@ add (expand) section to portfolio
     use query param to indicate project is expanded, allowing direct access via link
     add transition between states, ideally have icons float to their project
 
-try to load assets before doing fadein
 add hamburger menu for mobile
 pick a new home picture?
 pick a new favicon
@@ -27,6 +26,26 @@ update icons?
     react
     node
     express
+
+
+Fork FadeIn package, add support for FadeInImage:
+    const [loaded, setLoaded] = useState(false);
+
+    const handleLoad = (() => {
+        if (!loaded) {
+            console.log('loaded');
+            setLoaded(true);
+        }
+    });
+
+    return (
+        <>
+        {!loaded ? (<img src={profile} alt="Profile" className="hidden" onLoad={handleLoad()} />) :
+            (<FadeIn className="home" childClassName='homeElement'>
+                <img src={profile} alt="Profile" className="photo fadein" onLoad={handleLoad()} />
+                <p className="description fadein">Hi, my name is Alex and I'm a software developer at <b><a className='homeLink' href='https://www.intersystems.com/' target='_blank' rel='noreferrer'>InterSystems</a></b>. I'm also a rower, (newly) biker, and (not so newly) gamer. I've been developing full-stack software applications since 2015 - from simple websites to enterprise level data pipelines. Take a look around to see some of the projects I work on and the tools I use!</p>
+            </FadeIn>)}
+        </>
 
 play around with new layout that has everything on a single page:
     left third: image top, description below, contact info below that
