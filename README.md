@@ -37,5 +37,5 @@ firebase emulators:start
 And deploy to the live site
 
 ```shell
-firebase deploy
+npm run deploy
 ```
