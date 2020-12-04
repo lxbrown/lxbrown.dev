@@ -1,16 +1,10 @@
-add (expand) section to portfolio
-    add cards framework beneath top level cards
-    add card for all companies, with icons. sort by category
-    add card for all projects, with icons
-    hide project cards
-    add 'v expand' button
-    show project cards on click
-    auto scroll on click
-    rename button to '^ collapse' on click, put below projects
-    use query param to indicate project is expanded, allowing direct access via link
-    add transition between states, ideally have icons float to their project
+play around with new layout that has everything on a single page:
+    left third: image top, description below, contact info below that
+    right two thirds: content
+        experience/portfolio
+        (future) about - making of this page
+        (future) rowing/biking stuff
 
-add hamburger menu for mobile
 pick a new home picture?
 pick a new favicon
 add links in description:
@@ -18,15 +12,6 @@ add links in description:
     biker - picture of crash
     software - lxbrown.dev
     gamer - hovertext/popup: 'I don't have a cool picture or story here, I just like doing it'
-
-use theme color elsewhere on the pages?
-add icon
-    mongoosejs
-update icons?
-    react
-    node
-    express
-
 
 Fork FadeIn package, add support for FadeInImage:
     const [loaded, setLoaded] = useState(false);
@@ -47,14 +32,18 @@ Fork FadeIn package, add support for FadeInImage:
             </FadeIn>)}
         </>
 
-play around with new layout that has everything on a single page:
-    left third: image top, description below, contact info below that
-    right two thirds: content
-        experience/portfolio
-        (future) about - making of this page
-        (future) rowing/biking stuff
 
-
+add (expand) section to portfolio
+    add cards framework beneath top level cards
+    add card for all companies, with icons. sort by category
+    add card for all projects, with icons
+    hide project cards
+    add 'v expand' button
+    show project cards on click
+    auto scroll on click
+    rename button to '^ collapse' on click, put below projects
+    use query param to indicate project is expanded, allowing direct access via link
+    add transition between states, ideally have icons float to their project
 
 
 ## commands
