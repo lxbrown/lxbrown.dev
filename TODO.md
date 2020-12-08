@@ -20,9 +20,13 @@ return (
     </>
 ```
 open PR to react-fade-in
+
 update dependency to forked branch of react-fade-in
+
 pick a new favicon
+
 different home picture?
+
 add links in description:
 * rower - picture of me rowing
 * biker - picture of crash
@@ -61,6 +65,6 @@ yarn start
 #### Firebase debugging
 
 ```shell
-npm run build
+yarn build
 firebase emulators:start
 ```
