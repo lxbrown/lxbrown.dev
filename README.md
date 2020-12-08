@@ -37,5 +37,5 @@ firebase emulators:start
 And deploy to the live site
 
 ```shell
-npm run deploy
+yarn deploy
 ```
