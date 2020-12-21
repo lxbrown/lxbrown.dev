@@ -1,5 +1,5 @@
 ## TODO
-add links in description:
+add links in description - fade in on home page or open in new window?
 * rower - picture of rowing
 * biker - picture of crash
 * software - lxbrown.dev
