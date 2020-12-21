@@ -1,4 +1,10 @@
 ## TODO
+add links in description:
+* rower - picture of rowing
+* biker - picture of crash
+* software - lxbrown.dev
+* gamer - hovertext/popup: 'I don't have a picture or story here, I just enjoy it'
+
 Add FadeInImage to react-fade-in, based on:
 ```javascript
 const [loaded, setLoaded] = useState(false);
@@ -23,15 +29,7 @@ open PR to react-fade-in
 
 update dependency to forked branch of react-fade-in
 
-pick a new favicon
-
 different home picture?
-
-add links in description:
-* rower - picture of me rowing
-* biker - picture of crash
-* software - lxbrown.dev
-* gamer - hovertext/popup: 'I don't have a picture or story here, I just enjoy it'
 
 play around with new layout that has everything on a single page
 * left third: image top, description below, contact info below that
