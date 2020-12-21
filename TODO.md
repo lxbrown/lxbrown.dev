@@ -1,10 +1,4 @@
 ## TODO
-add links in description - fade in on home page or open in new window?
-* rower - picture of rowing
-* biker - picture of crash
-* software - lxbrown.dev
-* gamer - hovertext/popup: 'I don't have a picture or story here, I just enjoy it'
-
 Add FadeInImage to react-fade-in, based on:
 ```javascript
 const [loaded, setLoaded] = useState(false);
