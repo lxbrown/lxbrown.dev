@@ -1,4 +1,6 @@
 ## TODO
+Switch to using <a> titles instead of tooltips
+
 Add FadeInImage to react-fade-in, based on:
 ```javascript
 const [loaded, setLoaded] = useState(false);
