@@ -98,7 +98,7 @@ const github =
 {
     name: 'Github',
     icon: githubIcon,
-    link: 'https://www.mongodb.com/'
+    link: 'https://github.com/'
 };
 const perforce =
 {
