@@ -1,6 +1,4 @@
 ## TODO
-Add Heroku to Cloud Platforms
-
 Recent Projects tab?
 
 play around with new layout that has everything on a single page

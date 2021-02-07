@@ -5,7 +5,7 @@ import Card from '../card/card';
 import {
     javascript, typescript, objectscript, python, java, angular,
     react, nodejs, django, express, mongodb, iris, sqlite, github,
-    perforce, bitbucket, firebase
+    perforce, bitbucket, firebase, heroku
 } from '../card/tiles';
 
 import './tech.css';
@@ -15,7 +15,7 @@ export default function Tech() {
     const frameworks = [angular, react, nodejs, django, express];
     const databases = [mongodb, iris, sqlite];
     const sourceControl = [github, perforce, bitbucket];
-    const cloudPlatforms = [firebase];
+    const cloudPlatforms = [firebase, heroku];
 
     // const intersystems = [objectscript, typescript, java, python, angular, django, nodejs, iris, sqlite, perforce, bitbucket];
     // const dcs = [java, /*C++ (arduino), C# */];

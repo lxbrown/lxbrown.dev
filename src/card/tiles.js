@@ -15,6 +15,7 @@ import sqliteIcon from '../assets/icons/sqlite.svg';
 import firebaseIcon from '../assets/icons/firebase.svg';
 import irisIcon from '../assets/icons/iris.svg';
 import objectscriptIcon from '../assets/icons/objectscript.svg';
+import herokuIcon from '../assets/icons/heroku.svg';
 
 const javascript =
 {
@@ -118,7 +119,13 @@ const firebase =
     icon: firebaseIcon,
     link: 'https://firebase.google.com/'
 };
+const heroku = 
+{
+  name: 'Heroku',
+  icon: herokuIcon,
+  link: 'https://www.heroku.com/'
+};
 
 export { javascript, typescript, objectscript, python, java, angular,
         react, nodejs, django, express, mongodb, iris, sqlite, github,
-        perforce, bitbucket, firebase };
+        perforce, bitbucket, firebase, heroku };
