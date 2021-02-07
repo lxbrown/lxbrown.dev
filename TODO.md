@@ -1,5 +1,5 @@
 ## TODO
-Switch to using <a> titles instead of tooltips
+Add Heroku to Cloud Platforms
 
 Add FadeInImage to react-fade-in, based on:
 ```javascript
