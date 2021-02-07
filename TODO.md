@@ -1,31 +1,7 @@
 ## TODO
 Add Heroku to Cloud Platforms
 
-Add FadeInImage to react-fade-in, based on:
-```javascript
-const [loaded, setLoaded] = useState(false);
-
-const handleLoad = (() => {
-    if (!loaded) {
-        console.log('loaded');
-        setLoaded(true);
-    }
-});
-
-return (
-    <>
-    {!loaded ? (<img src={profile} alt="Profile" className="hidden" onLoad={handleLoad()} />) :
-        (<FadeIn className="home" childClassName='homeElement'>
-            <img src={profile} alt="Profile" className="photo fadein" onLoad={handleLoad()} />
-            <p className="description fadein">...</p>
-        </FadeIn>)}
-    </>
-```
-open PR to react-fade-in
-
-update dependency to forked branch of react-fade-in
-
-different home picture?
+Recent Projects tab?
 
 play around with new layout that has everything on a single page
 * left third: image top, description below, contact info below that
@@ -47,18 +23,3 @@ add (expand) section to portfolio
 * rename button to '^ collapse' on click, put below projects
 * use query param to indicate project is expanded, allowing direct access via link
 * add transition between states, ideally have icons float to their project
-
-
-### Useful commands
-#### React debugging
-
-```shell
-yarn start
-```
-
-#### Firebase debugging
-
-```shell
-yarn build
-firebase emulators:start
-```
