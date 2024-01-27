@@ -1,5 +1,4 @@
-import firebase from 'firebase/app';
-import 'firebase/analytics';
+import { initializeApp } from 'firebase/app';
 
 const config = {
   apiKey: "AIzaSyDn0na6VcXmXqEwqbmo9-ulogmNvKsc40U",
@@ -12,6 +11,6 @@ const config = {
   storageBucket: "lxbrown-4ec67.appspot.com"
 };
 
-firebase.initializeApp(config);
+const app = initializeApp(config);
 
-export default firebase;
+export default app;

@@ -1,6 +1,7 @@
-import { Route, Redirect, Switch } from 'react-router-dom';
+import { Route, Navigate, Routes } from 'react-router-dom';
 
 import firebase from './services/firebase';
+import { getAnalytics } from "firebase/analytics";
 
 import Header from './header/header';
 import Tech from './tech/tech';
@@ -11,28 +12,18 @@ import './App.css';
 
 
 export default function App() {
-  firebase.analytics();
-
+  getAnalytics(firebase);
   return (
     <>
       <Header />
 
       <div className="main">
-        <Switch>
-          <Route exact path="/">
-            <Home />
-          </Route>
-          <Route exact path="/tech">
-            <Tech />
-          </Route>
-          <Route exact path="/contact">
-            <Contact />
-          </Route>
-
-          <Route path="*">
-            <Redirect to="/" />
-          </Route>
-        </Switch>
+        <Routes>
+          <Route path="/" element={<Home />}/>
+          <Route path="/tech" element={<Tech />}/>
+          <Route path="/contact" element={<Contact />}/>
+          <Route path="*" element={<Navigate to="/" />}/>
+        </Routes>
       </div>
     </>
   );

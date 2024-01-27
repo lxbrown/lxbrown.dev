@@ -5,9 +5,9 @@ import './header.css';
 export default function Header() {
     return (
         <div className="header">
-            <NavLink exact to="/" className='menuItem' activeClassName="selected">Home</NavLink>
-            <NavLink exact to="/tech" className='menuItem' activeClassName="selected">Tech</NavLink>
-            <NavLink exact to="/contact" className='menuItem' activeClassName="selected">Contact</NavLink>
+            <NavLink to="/" className={(navData) => (navData.isActive ? "menuItem selected" : "menuItem")}>Home</NavLink>
+            <NavLink to="/tech"className={(navData) => (navData.isActive ? "menuItem selected" : "menuItem")}>Tech</NavLink>
+            <NavLink to="/contact" className={(navData) => (navData.isActive ? "menuItem selected" : "menuItem")}>Contact</NavLink>
         </div>
     )
 }
